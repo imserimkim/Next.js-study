@@ -1,0 +1,16 @@
+html,body{
+    margin: 0;
+}
+
+*{box-sizing: border-box;}
+
+header{
+    background-color: black;
+    // background: linear-gradient(180deg, black, transperant);
+    padding: 20px 0;
+    text-align: center;
+    a{color: #fff; padding: 0 30px;
+        &:hover{
+            color: yellowgreen;
+        }}
+}
